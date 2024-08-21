@@ -15,11 +15,13 @@ class Calculator:
         return self.Firstnumber + self.Secondnumber + Calculator.num
     def substraction(self):
         return self.Firstnumber - self.Secondnumber
-
+    def Multiplication(self):
+        return self.Firstnumber * self.Secondnumber
 obj = Calculator(2, 3) # Syntax to create obj in Python
 obj.getdata()
 print(obj.summation())
 print(obj.substraction())
+print(obj.Multiplication())
 
 obj1 = Calculator(4, 5) # Syntax to create obj in Python
 obj1.getdata()
